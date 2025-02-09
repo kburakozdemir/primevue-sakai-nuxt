@@ -1,0 +1,36 @@
+{
+  "name": "crm-nuxt",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@primevue/themes": "^4.2.5",
+    "chart.js": "^3.3.2",
+    "nuxt": "^3.15.4",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.2.5",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "packageManager": "pnpm@9.15.2+sha512.93e57b0126f0df74ce6bff29680394c0ba54ec47246b9cf321f0121d8d9bb03f750a705f24edc3c1180853afd7c2c3b94196d0a3d53d3e069d9e2793ef11f321",
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.13.1",
+    "@primevue/nuxt-module": "^4.2.5",
+    "@rushstack/eslint-patch": "^1.10.5",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "eslint": "^9.20.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "postcss": "^8.5.1",
+    "prettier": "^3.5.0",
+    "sass": "^1.84.0",
+    "tailwindcss-primeui": "^0.3.4"
+  },
+  "overrides": {
+      "nitropack": "2.9.7"
+  }
+}
